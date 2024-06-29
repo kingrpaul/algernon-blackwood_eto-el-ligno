@@ -36,16 +36,16 @@
 		<meta property="term" refines="#subject-2">LCSH_ID_2</meta> -->
 		<meta property="se:subject">Fiction</meta>
 		<meta property="se:subject">Shorts</meta>
-		<dc:description id="description" xml:lang="eo">Jen fabelo kiu pripensas sajne sensignifa aferoj.</dc:description>
+		<dc:description id="description">This e-book contains A Bit of Wood, both in the original English and an Esperanto translation and is intended for Esperanto learners.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description" xml:lang="eo">
-			&lt;p&gt;Jen fabelo kiu okazas en Moreno apud la landlimo de italio kaj enhavas pripensoj pri amo, mono, dubo, kaj la graveco de la sajne sensignifa aferoj.&lt;/p&gt;
+			&lt;p&gt;This e-book contains A Bit of Wood, both in the original English and an Esperanto translation and is intended for Esperanto learners.&lt;/p&gt;
 		</meta>
 		<dc:language>eo</dc:language>
 		<dc:source>https://www.gutenberg.org/files/45964/45964-h/45964-h.htm#XII</dc:source>
 		<dc:source>https://archive.org/details/dayandnightstori00blacrich/page/187/</dc:source>
 		<meta property="se:production-notes">None.</meta>
-		<meta property="se:word-count">3173</meta>
-		<meta property="se:reading-ease.flesch">64.80</meta>
+		<meta property="se:word-count">3188</meta>
+		<meta property="se:reading-ease.flesch">51.58</meta>
 		<!-- <meta property="se:url.encyclopedia.wikipedia">EBOOK_WIKI_URL</meta> -->
 		<meta property="se:url.vcs.github">https://github.com/kingrpaul/algernon-blackwood_eto-el-ligno</meta>
 		<dc:creator id="author">Algernon Blackwood</dc:creator>
@@ -56,9 +56,9 @@
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="artist">Hal Roach</dc:contributor>
 		<meta property="file-as" refines="#artist">Roach, Hal</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Hal_Roach</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n50051034</meta>
-		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
+		<!-- <meta property="se:url.encyclopedia.wikipedia" refines="#artist"></meta> -->
+		<!-- <meta property="se:url.authority.nacoaf" refines="#artist"></meta> -->
+		<!-- <meta property="role" refines="#artist" scheme="marc:relators">art</meta> -->
 		<dc:contributor id="producer-1">Paul King</dc:contributor>
 		<meta property="file-as" refines="#producer-1">King, Paul</meta>
 		<meta property="se:url.homepage" refines="#producer-1">https://kingrpaul.github.io/</meta>
@@ -77,18 +77,16 @@
 		<item href="images/cover.svg" id="cover.svg" media-type="image/svg+xml" properties="cover-image"/>
 		<item href="images/logo.svg" id="logo.svg" media-type="image/svg+xml"/>
 		<item href="images/titlepage.svg" id="titlepage.svg" media-type="image/svg+xml"/>
-		<item href="text/colophon.xhtml" id="colophon.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/eto-el-ligno.xhtml" id="eto-el-ligno.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/a-bit-of-wood.xhtml" id="a-bit-of-wood.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml" properties="svg"/>
-		<item href="text/uncopyright.xhtml" id="uncopyright.xhtml" media-type="application/xhtml+xml"/>
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
 	</manifest>
 	<spine>
 		<itemref idref="titlepage.xhtml"/>
 		<itemref idref="imprint.xhtml"/>
 		<itemref idref="eto-el-ligno.xhtml"/>
-		<itemref idref="colophon.xhtml"/>
-		<itemref idref="uncopyright.xhtml"/>
+		<itemref idref="a-bit-of-wood.xhtml"/>
 	</spine>
 </package>

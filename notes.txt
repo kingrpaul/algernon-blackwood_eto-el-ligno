@@ -2,40 +2,41 @@ RELEASE NOTES:
 
 
 MASTODON
-    [] Mastodon
+    [x] Mastodon
 
 
 FACEBOOK
-    [] Babilejo
-    [] Facebook - Public, my page
+    [x] Babilejo
+    [X] Facebook - Public, my page
 
 TWITTER
-    [] Twitter
+    [x] Twitter
 
 TELEGRAM
-    [] Komencantujo | Esperanto
-    [] Esperanto-English
-    [] Esperanto en Ameriko
+    [x] Komencantujo | Esperanto
+    [x] Esperanto-English
+    [x] Esperanto en Ameriko
+    [x] Esperanto - English
 
 DISCORD
-    [] Mississippi Esperanto Society
-    [] North Alabama Esperanto Group -- General Channel
-    [] Esperanto | hejmo
+    [X] Mississippi Esperanto Society
+    [x] North Alabama Esperanto Group -- General Channel
+    [x] Esperanto | hejmo
 
 REDDIT
-    [] r/Esperanto
+    [x] r/Esperanto
 
 ARCHIVE
     [] Internet Archive
 
+Eto el Ligno: An English-Esperanto Reader
 
-
-Jen tre mallonga, bonega, saĝa kaj ne tro malfacila rakonto de #AlgernonBlackwood kiu servas kiel legilo por lernantoj, kaj aliaj.Ĝuu!
-Here is a very short, excellent, wise and not too difficult story by #AlgernonBlackwood that serves as a primer for students, and others. Enjoy!
+Jen dua linva traduko de tre mallonga, bonega, saĝa kaj ne tro malfacila rakonto de #AlgernonBlackwood kiu servas kiel legilo por lernantoj, kaj aliaj. Ĝuu!
+Here is a dual-language verion of a very short, excellent, wise and not too difficult story by #AlgernonBlackwood that serves as a primer for learners, and others. Enjoy!
 https://kingrpaul.github.io/algernon-blackwood_eto-el-ligno/
 https://tinyurl.com/eto-el-ligno
 
-#CreativeCommons #ebook #epub #kindle #kobo.
+#CreativeCommons #ebook #epub #kindle #kobo #Esperanto #English #Literature #ShortStory
 
 
 https://tinyurl.com/eto-el-ligno

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
-	<file path="logo.svg">
+    <file path="colophon.xhtml">
 		<ignore>
-			<code>x-004</code>
-			<reason>Custom logo.</reason>
+			<code>m-006</code>
+			<reason>refers to a page within a larger work</reason>
 		</ignore>
 	</file>
-	<file path="logo.svg">
+	<file path="colophon.xhtml">
 		<ignore>
-			<code>x-014</code>
-			<reason>Custom logo.</reason>
+			<code>m-007</code>
+			<reason>article within a book requires page reference</reason>
 		</ignore>
 	</file>
 	<file path="content.opf">
@@ -42,29 +42,30 @@
 			<reason>manually reviewed for non-English</reason>
 		</ignore>
 	</file>
-	<file path="cover.svg">
-		<ignore>
-			<code>s-028</code>
-			<reason>manually reviewed</reason>
-		</ignore>
-	</file>
-    <file path="imprint.xhtml">
+    <file path="colophon.xhtml">
 		<ignore>
 			<code>s-012</code>
 			<reason>intended for appearance</reason>
 		</ignore>
 	</file>
-
-    <file path="imprint.xhtml">
+    <file path="a-bit-of-wood.xhtml">
 		<ignore>
-			<code>m-006</code>
-			<reason>refers to a page within a larger work</reason>
+			<code>s-033</code>
+			<reason>mixed-language document</reason>
+		</ignore>
+	</file>	
+
+	<!-- SVG FILES -->
+	<file path="logo.svg">
+		<ignore>
+			<code>x-004</code>
+			<reason>Custom logo.</reason>
 		</ignore>
 	</file>
-    <file path="imprint.xhtml">
+	<file path="logo.svg">
 		<ignore>
-			<code>m-007</code>
-			<reason>refers to a page within a larger work</reason>
+			<code>x-014</code>
+			<reason>Custom logo.</reason>
 		</ignore>
 	</file>
     <file path="titlepage.svg">
@@ -73,13 +74,19 @@
 			<reason>special case, reader</reason>
 		</ignore>
 	</file>	
-
-    <file path="a-bit-of-wood.xhtml">
+	<file path="cover.svg">
 		<ignore>
-			<code>s-033</code>
-			<reason>mixed-language document</reason>
+			<code>s-028</code>
+			<reason>manually reviewed</reason>
 		</ignore>
-	</file>	
+	</file>
 
+	<!-- DISTRIBUTION FILES -->
+	<file path="*.*">
+		<ignore>
+			<code>f-001</code>
+			<reason>distribution files</reason>
+		</ignore>
+	</file>
 
 </se-lint-ignore>
